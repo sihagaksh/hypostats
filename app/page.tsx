@@ -13,7 +13,7 @@ export default function HomePage() {
     <>
       <section className="relative w-screen">
         <div className="hidden lg:block z-50 font-semibold text-8xl rotate-90 absolute top-[38vh] -right-[20vh] text-black/10 dark:text-white/10">
-          hypo<span className="text-violet-600/20 dark:text-orange-600/20">stat</span>
+          hypo<span className="text-violet-600/20 dark:text-orange-600/20">stats</span>
         </div>
         <MaxWidthWrapper className="h-[calc(100vh-64px)] w-full flex items-center justify-center">
           <section className="h-full lg:w-3/5 w-full flex flex-col items-center justify-center md:mt-24 xl:mt-0 mt-42">
