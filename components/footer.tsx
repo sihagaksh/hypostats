@@ -50,18 +50,7 @@ const Footer = () => {
         {/* Divider */}
         <section className="w-1/2 h-[2px] bg-gradient-to-r from-transparent via-primary to-transparent mt-8" />
 
-        {/* Contact Info */}
-        <section className="mt-4 text-foreground h-16 justify-center items-center text-sm flex font-normal space-x-2">
-          <User strokeWidth={1.75} className="text-sm text-foreground hidden lg:block" />
-          <pre className="hidden lg:block">Mayank Bansal</pre>
-          <pre className="text-muted-foreground text-sm hidden lg:block">|</pre>
-          <Mail strokeWidth={1.75} className="text-sm text-foreground hidden md:block" />
-          <pre>2023mcb1301@iitrpr.ac.in</pre>
-          <pre className="text-muted-foreground text-sm">|</pre>
-          <Phone strokeWidth={1.75} className="text-[10px] text-foreground hidden md:block" />
-          <pre>(+91) 9819392912</pre>
-        </section>
-        <section className="-mt-4 text-foreground h-16 justify-center items-center text-sm flex font-normal space-x-2">
+        <section className="mt-2 text-foreground h-16 justify-center items-center text-sm flex font-normal space-x-2">
           <User strokeWidth={1.75} className="text-sm text-foreground hidden lg:block" />
           <pre className="hidden lg:block">Aksh Sihag</pre>
           <pre className="text-muted-foreground text-sm hidden lg:block">|</pre>

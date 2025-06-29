@@ -6,6 +6,7 @@ import GridDesign from "@/components/grid-design"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { useAuth } from "@/hooks/use-auth"
+import TextRevealByWord from "@/components/text-reveal-by-word"
 
 export default function HomePage() {
   const { user, logout } = useAuth()
@@ -48,27 +49,27 @@ export default function HomePage() {
             <div className="mt-12 flex flex-col w-full lg:flex-row items-center lg:items-start gap-5">
               <div className="flex -space-x-4">
                 <img
-                  src="/placeholder.svg?height=40&width=40"
+                  src="/users/user-1.png"
                   className="inline-block h-10 w-10 rounded-full select-none pointer-events-none ring-2 ring-violet-900 dark:ring-orange-900"
                   alt="user image"
                 />
                 <img
-                  src="/placeholder.svg?height=40&width=40"
+                  src="/users/user-2.png"
                   className="inline-block h-10 w-10 rounded-full select-none pointer-events-none ring-2 ring-violet-900 dark:ring-orange-900"
                   alt="user image"
                 />
                 <img
-                  src="/placeholder.svg?height=40&width=40"
+                  src="/users/user-3.png"
                   className="inline-block h-10 w-10 rounded-full select-none pointer-events-none ring-2 ring-violet-900 dark:ring-orange-900"
                   alt="user image"
                 />
                 <img
-                  src="/placeholder.svg?height=40&width=40"
+                  src="/users/user-4.jpg"
                   className="inline-block select-none pointer-events-none object-cover h-10 w-10 rounded-full ring-2 ring-violet-900 dark:ring-orange-900"
                   alt="user image"
                 />
                 <img
-                  src="/placeholder.svg?height=40&width=40"
+                  src="/users/user-5.jpg"
                   className="inline-block select-none pointer-events-none object-cover h-10 w-10 rounded-full ring-2 ring-violet-900 dark:ring-orange-900"
                   alt="user image"
                 />
@@ -94,7 +95,7 @@ export default function HomePage() {
                 </Link>
                 <Link href="/login">
                   <Button variant="outline" size="lg" className="bg-background text-foreground">
-                    Sign In
+                    AI Analyze
                   </Button>
                 </Link>
               </div>
@@ -112,6 +113,10 @@ export default function HomePage() {
         </MaxWidthWrapper>
         <section className="min-h-[200vh]">
           <GridDesign />
+          <MaxWidthWrapper><TextRevealByWord
+          text="HypoStat revolutionizes statistical hypothesis testing with intelligent automation and professional-grade accuracy for researchers worldwide"
+          className="mx-auto"
+        /></MaxWidthWrapper>
         </section>
       </section>
       <Footer />
